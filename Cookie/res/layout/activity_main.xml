@@ -1,0 +1,119 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white" >
+
+    <TableRow
+        android:gravity="center"
+        android:paddingTop="10dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="10dp"
+            android:layout_span="2"
+            android:background="@color/white"
+            android:contentDescription="@string/cookie_logo"
+            android:src="@drawable/logo" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="20dip" >
+
+        <ImageButton
+            android:id="@+id/image_button_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dip"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:contentDescription="@string/img_button_search"
+            android:padding="10dp"
+            android:src="@drawable/search_128" />
+
+        <ImageButton
+            android:id="@+id/image_button_fridge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:contentDescription="@string/img_button_fridge"
+            android:padding="10dp"
+            android:src="@drawable/fridge_128" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="20dip" >
+
+        <ImageButton
+            android:id="@+id/image_button_world_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:contentDescription="@string/img_button_world_map"
+            android:padding="10dp"
+            android:src="@drawable/world_map_128" />
+
+        <ImageButton
+            android:id="@+id/image_button_help"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:contentDescription="@string/img_button_help"
+            android:padding="10dp"
+            android:src="@drawable/help_128" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dip"
+        android:gravity="center" >
+
+        <ImageButton
+            android:id="@+id/image_button_my_cookie"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dip"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:contentDescription="@string/img_button_my_cookie"
+            android:padding="10dp"
+            android:src="@drawable/my_cookie" />
+
+        <ImageButton
+            android:id="@+id/image_button_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:contentDescription="@string/img_button_login"
+            android:padding="10dp"
+            android:src="@drawable/login_128" />
+    </TableRow>
+
+</TableLayout>
+</ScrollView>

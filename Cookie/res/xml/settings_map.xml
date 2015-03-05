@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="Postavke karte">
+        <EditTextPreference
+            android:key="preference_map_radius"
+            android:summary="Okrug u kojemu tražiti bliska mjesta kupnje (u kilometrima)"
+            android:title="Radius prikazivanja"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cookie</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Dobrodošli u Cookie!</string>
+    <string name="btnOpenCategories">Pretraga po kategorijama</string>
+    <string name="getData">Pretraži recepte</string>
+    <string name="categories_prompt">Odaberite kategoriju</string>
+    <string name="tvCategory1">Meso</string>
+    <string name="recipes_auto_complete">Započnite s unosom &#8230;</string>
+    <string name="open_recipes">Pretraga po ključnim riječima</string>
+    <string name="recipes">Recepti</string>
+    <string name="preparationTime">Vrijeme pripreme:</string>
+    <string name="imgRecipePictureContentDescription">Recipe picture</string>
+    <string name="btn_filter">Sortiranje recepata</string>
+    <string name="filter_choose">Odaberite način sortiranja</string>
+	<string name="opt_recipes_sync">Sinkroniziraj recepte</string>
+    <string name="opt_recipe_download">Preuzmi recept</string>
+    <string name="my_cookie">Moj Cookie</string>
+    <!-- <color name="white">#E5FFF4</color> -->
+    <color name="white">#FFFFFF</color>
+    <string name="account">Račun</string>
+    <string name="login">Log in</string>
+    <string name="empty"> </string>
+    <string name="cookie_logo">Cookie logo</string>
+    <string name="img_button_fridge"></string>
+	<string name="img_button_search"></string>
+	<string name="img_button_world_map"></string>
+	<string name="img_button_help"></string>
+	<string name="img_button_my_cookie"></string>
+	<string name="img_button_login"></string>
+    
+    <string name="category_map_settings">Postavke karte</string>
+    <string name="opt_map_refresh">Osvježi kartu</string>
+    <string name="opt_map_settings">Postavke karte</string>
+    
+    <string-array name="filter_array">
+        <item>Po abecedi</item>
+        <item>Po trajanju pripreme</item>
+        <item>Po ocjenama</item>
+        <item>Po broju komentara</item>
+    </string-array>
+  
+</resources>

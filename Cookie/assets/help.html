@@ -1,0 +1,198 @@
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+    <title>Cookie help</title>
+    <style type="text/css">
+        @font-face {
+            font-family: MyFont;
+            src: url("file:///android_asset/fonts/AYearWithoutRain.ttf");
+        }
+
+        body {
+            font-family: MyFont;
+            color: #000000;
+            font-size:11px;
+        }
+
+        img {
+            float: left;
+            margin: 0pt 5pt 5pt 5pt;
+        }
+        @charset "UTF-8";
+
+		html, body{
+			padding:0;
+			margin:5px;
+			position:relative;
+			background:url(../img/body.jpg);
+			background-repeat:repeat;
+			letter-spacing:1px;
+		}
+		
+		.zebra caption{
+			font-size:12px;
+			font-weight:normal;
+			background-repeat:no-repeat;
+			background-position: 130px center;
+			padding-top: 20px;
+			height:50px;}
+		
+		#container{
+			padding-top:20px;
+			margin:0 auto;
+		}
+		
+		table {
+			font-size:12px !important;
+		    border-collapse: collapse;
+		    border-spacing: 0;
+			-webkit-box-shadow:  0px 2px 1px 5px rgba(242, 242, 242, 0.1);
+		    box-shadow:  0px 2px 1px 5px rgba(242, 242, 242, 0.1);
+		}
+		
+		.zebra {
+		    border: 1px solid #555;
+		}
+		
+		.zebra td {
+		    border-left: 1px solid #555;
+		    border-top: 1px solid #555;
+		    padding: 10px;
+		    text-align: left;    
+		}
+		
+		.zebra th, .zebra th:hover {
+		    border-left: 1px solid #555;
+			border-bottom: 1px solid #828282;
+		    padding: 20px;  
+		    background-color:#151515 !important;
+		    background-image: -webkit-gradient(linear, left top, left bottom, from(#151515), to(#404040)) !important;
+		    background-image: -webkit-linear-gradient(top, #151515, #404040) !important;
+		    background-image:    -moz-linear-gradient(top, #151515, #404040) !important;
+		    background-image:     -ms-linear-gradient(top, #151515, #404040) !important;
+		    background-image:      -o-linear-gradient(top, #151515, #404040) !important;
+		    background-image:         linear-gradient(top, #151515, #404040) !important;
+			color:#fff !important;
+			font-weight:normal;
+		}
+		
+		.zebra tbody tr:nth-child(even) {
+		    background: #000 !important;
+			color:#fff;
+		}
+		
+		.zebra tr:hover *{
+		    background: #eeeeee;
+			color:#000;
+		}
+		
+		.zebra tr {
+			background:#404040;
+			color:#fff;
+		}
+    </style>
+</head>
+<body>
+    <h1>Dobrodosli u Cookie!</h1>
+    
+    <h2>O aplikaciji</h2>
+    <img src="images/logo.png" alt="Cookie logo" width="300px" heigth="300px" />
+    <p>
+        Cookie je aplikacija koja prije svega korisniku omogucava kuhanje ovisno o sastojcima koje ima na raspolaganju, 
+        a pri tome rjesava problem bacanja hrane te nudi mogucnost pronalazenja novih recepata.  
+        Posjeduje i jos neke dodatne funkcionalnosti kao sto je pronalazak najblizeg mjesta kupnje namirnica.
+    </p>
+    <br>
+	<h2>Navigacija kroz aplikaciju</h2>
+    <p>
+        Pokretanjem aplikacije na Vasem moblinom uredaju otvara se prozor s kojeg mozete pristupiti svim ostalim dijelovima aplikacije
+        i njenim funkcionalnostima.
+        U tablici ispod su opisane pojedine slike, odnosno gumbovi i funkcionalnosti koje Vam stoje na
+        raspolaganju nakon dodira na pojedini gumb.
+
+    <div id="container">   
+
+	<table class="zebra">
+		<thead>
+        	<tr>
+				<th>Slika</th>
+				<th>Opis</th>
+            </tr>
+		</thead>
+        <tbody>
+        	<tr>
+            	<td><img src="images/search_128.png" width="64px" heigth="64px"/></td>
+                <td>
+				    Dodirom na sliku odabirete pretrazivanje recepata unosenjem kljucnih rijeci iz naziva recepta. 
+				    Navedeni oblik pretrazivanja svako preporucujemo kada imate ideju o tome kakvo jelo zelite. 
+				    Pa tako primjerice mozete upisati kljucnu rijec juha a aplikacija ce izlistati sve recepte juhe, 
+				    koje dalje mozete sortirati prema nekim od slijedecih karakteristika:
+				    <ul>
+					<li>abecedni poredak</li>
+					<li>vrijeme trajanja pripreme</li>
+					<li>ocjena</li>
+					</ul>
+					Naravno, ukoliko odaberete sortiranje abecednim poretkom najprije 
+					ce se ispisati recepti koji pocinju slovom A, 
+					a zadnji ce se prikazati recepti koji zapocinju slovom Z. 
+					Na taj nacin brze pronaci zeljeni recept. Isto tako, 
+					ukoliko odaberete sortiranje prema vremenu trajanja pripreme najprije 
+					ce biti prikazani recepti koji imaju manje vrijeme pripreme sto moze biti vrlo 
+					korisno ukoliko ste u stisci s vremenom. I na kraju ukoliko odaberete sortiranje 
+					recepta prema ocjeni najprije ce biti prikazani recepti s najvecom ocjenom sto moze 
+					biti izuzetno korisno ukoliko zelite isprobati nove ali i ukusne recepte.
+    			</td>
+            </tr>
+            <tr>
+            	<td><img src="images/fridge_128.png" width="64px" heigth="64px"/></td>
+                <td>
+		       	Dodirom na sliku odabirete pretrazivanje recepata ovisno o sastojcima 
+		        a pri tome se otvara novi prozor putem kojeg mozete odabrati kategorije
+		         i podkategorije namirnica koje imate na raspolaganju ili jednostavno
+		          ih zelite koristiti za pripremu jela. 
+		        Pri tome je potrebno napomenuti da u samom definiranju sastojaka mozete
+		         sami odrediti opcenitost navodjenja sastojaka.
+		          Pa tako mozete odabrati meso ili pojedinu potkategoriju mesa primjerice pilece, 
+		          no  naravno o tome ovisi i broj recepata koji ce Vam se prikazati pa 
+		          se u tom slucaju uglavnom preporuca preciznije definiranje sastojaka odnosno njihovih potkategorija. 
+				Navedeni oblik pretrazivanja svakako preporucujemo kada zelite pronaci 
+				jelo s nekim specificnim sastojcima.
+				</td>
+            </tr>
+            <tr>
+            	<td><img src="images/world_map_128.png" width="64px" heigth="64px"/></td>
+                <td>
+                	Dodirom na sliku otvara se karta na kojoj ce biti prikazana Vasa trenutna lokacija
+                	(ukoliko prihvatite uvjete za pretrazivanje Vase trenutne lokacije) i najbliza mjesta kupnje
+                	s obzirom na Vasu lokaciju. Vasa lokacija bit ce prikazan plavom tocom,
+                	a bliska mjesta kupnje crvenim oznakama. Nadalje, u izborniku mozete unijeti
+                	broj (u km) za koji zelite pretrazivati bliska mjesta kupnje.
+                </td>
+            </tr>
+            <tr>
+            	<td><img src="images/logobtnmyCookie.png" width="64px" heigth="64px"/></td>
+                <td>
+                Dodirom na sliku ispod (MyCookie) otvara se prozor u kojem se nalaze svi Vasi prethodno spremljeni recepti. 
+    			Receptima mozete pristupiti klikom na pojedini recept neovisno o tome jeste li spojeni na Internet.
+    			Isto tako, ukoliko ste spojeni na Internet, mozete uskladiti (sinkronizirati) Vase lokalno pohranjene recpete
+    			s onima u nasoj bazi podataka.
+    		</td>
+            </tr>
+            <tr>
+            	<td><img src="images/login_128.png" width="64px" heigth="64px"/></td>
+                <td>
+                Dodirom na sliku ce se otvoriti novi prozor koji sluzi za prijavu korisnika u aplikaciju.
+                Potrebno je odabrati korisnicki racun koji zelite povezati s aplikacijom, odnosno s kojim
+                se zelite registrirati. Nakon toga trebate prihvatiti uvjete koristenja i zapoceti sa samim koristenjem
+                aplikacije i dodatnih funkcionalnosti koje Vam prijava u istu omogucuje!
+                </td>
+            </tr>
+        </tbody>
+	</table>
+	
+<p>Zelimo Vam ugodno koristenje Cookie aplikacije i jos ugodnije kuhanje ukusnih jela! :)</p>
+	
+</div>
+
+</body>
+</html>
